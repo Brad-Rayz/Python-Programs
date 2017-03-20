@@ -1,1 +1,6 @@
-meal = 44.50tax = 0.0675tip = 0.15meal = meal + meal * taxtotal = meal + meal * tipprint("%.2f" % total)
+meal = 44.50
+tax = 0.0675
+tip = 0.15
+meal = meal + meal * tax
+total = meal + meal * tip
+print("%.2f" % total)
